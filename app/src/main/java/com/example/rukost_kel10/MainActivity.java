@@ -16,8 +16,11 @@ import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity {
 
-    private EditText Pilihtanggal;
-    private ImageButton btn_tgl;
+    private EditText Pilihjam, Pilihtanggal;
+    private ImageButton btn_jam, btn_tgl;
+
+    private int jam,menit;
+    private int jam2,menit2;
 
     private int tahun,bulan,tanggal;
     private int tahun2,bulan2,tanggal2;
@@ -26,10 +29,61 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.kalender);
+
+        Pilihjam = findViewById(R.id.Pilihjam);
         Pilihtanggal = findViewById(R.id.Pilihtanggal);
+        btn_jam = findViewById(R.id.btn_jam);
         btn_tgl = findViewById(R.id.btn_tgl);
 
+        btn_jam.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Calendar calendar = Calendar.getInstance();
+                jam = calendar.get(Calendar.HOUR_OF_DAY);
+                menit = calendar.get(Calendar.MINUTE);
 
+                TimePickerDialog dialog;
+                dialog = new TimePickerDialog(MainActivity.this, new TimePickerDialog.OnTimeSetListener() {
+                    @Override
+                    public void onTimeSet(TimePicker view, int hourOfDay, int minute) {
+                        jam = hourOfDay;
+                        menit = minute;
+
+                        if (jam <= 12){
+                            Pilihjam.setText(String.format(Locale.getDefault(), "%d:%d am", jam, menit));
+                        }else{
+                            Pilihjam.setText(String.format(Locale.getDefault(), "%d:%d pm", jam, menit));
+                        }
+                    }
+                }, jam, menit, true);
+                dialog.show();
+            }
+        });
+
+        Pilihjam.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Calendar calendar = Calendar.getInstance();
+                jam2 = calendar.get(Calendar.HOUR_OF_DAY);
+                menit2 = calendar.get(Calendar.MINUTE);
+
+                TimePickerDialog dialog;
+                dialog = new TimePickerDialog(MainActivity.this, new TimePickerDialog.OnTimeSetListener() {
+                    @Override
+                    public void onTimeSet(TimePicker view, int hourOfDay, int minute) {
+                        jam2 = hourOfDay;
+                        menit2 = minute;
+
+                        if (jam2 <= 12){
+                            Pilihjam.setText(String.format(Locale.getDefault(), "%d:%d am", jam, menit));
+                        }else{
+                            Pilihjam.setText(String.format(Locale.getDefault(), "%d:%d pm", jam, menit));
+                        }
+                    }
+                }, jam2, menit2, true);
+                dialog.show();
+            }
+        });
 
         btn_tgl.setOnClickListener(new View.OnClickListener() {
             @Override
