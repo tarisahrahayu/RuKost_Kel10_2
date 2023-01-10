@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100">
+
+    <TextView
+        android:layout_marginTop="16dp"
+        android:text="Rincian Pembayaran"
+        android:fontFamily="@font/medium"
+        android:textSize="16dp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+
+    <ImageView
+        android:id="@+id/berhasil"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="10dp"
+        android:src="@drawable/info_pembayaran" />
+
+    <!-- card total pembayaran-->
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="8dp"
+        app:cardMaxElevation="10dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp">
+
+            <!--Biaya Sewa Kos-->
+            <TextView
+                android:id="@+id/bia_sewa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/regular"
+                android:text="Biaya Sewa Kos"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/harga_sewa"
+                android:layout_width="200dp"
+                android:layout_height="46dp"
+                android:layout_marginStart="270dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="1000dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/regular"
+                android:text="Rp 550.000"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <!--Biaya Layanan RuKost-->
+            <TextView
+                android:id="@+id/bia_layanan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="45dp"
+                android:text="Biaya Layanan RuKost"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/layanan"
+                android:layout_width="200dp"
+                android:layout_height="46dp"
+                android:layout_marginStart="270dp"
+                android:layout_marginTop="45dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:drawablePadding="2dp"
+                android:text="Rp 9.000"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/total"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="80dp"
+                android:text="Total"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/medium" />
+
+            <TextView
+                android:id="@+id/harga_total"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="270dp"
+                android:layout_marginTop="75dp"
+                android:layout_marginEnd="1dp"
+                android:layout_marginBottom="10dp"
+                android:drawablePadding="2dp"
+                android:text="Rp 559.000"
+                android:textColor="@color/black"
+                android:fontFamily="@font/regular"
+                android:textStyle="bold"
+                android:textSize="16sp"/>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+    <ImageView
+        android:id="@+id/icon_info"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="20dp"
+        android:src="@drawable/info"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="1dp"
+        android:fontFamily="@font/regular"
+        android:layout_marginTop="-40dp"
+        android:text="Pada saat masuk kos, mohon siapkan kartu
+identitas asli untuk proses verifikasi"
+        android:textColor="@color/black"
+        android:textSize="16sp"/>
+
+
+    <Button
+        android:id="@+id/btn_tglsewa"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:textSize="15sp"
+        android:fontFamily="@font/bold"
+        android:layout_marginTop="20dp"
+        android:text="Bayar"
+        android:background="@drawable/button"
+        />
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+

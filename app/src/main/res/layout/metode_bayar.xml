@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100">
+
+    <TextView
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/medium"
+        android:text="Pembayaran"
+        android:textSize="16dp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+
+    <!-- card total pembayaran-->
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="8dp"
+        app:cardMaxElevation="10dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Text View to display Course Name -->
+        <TextView
+            android:id="@+id/total_pembayaran"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/medium"
+            android:text="Total Pembayaran"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/harga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/medium"
+            android:layout_below="@id/total_pembayaran"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:drawablePadding="2dp"
+            android:text="Rp 559.000"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_marginTop="1dp"
+        android:text="Metode Pembayaran"
+        android:textSize="16dp"
+        android:fontFamily="@font/medium"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+
+    <!-- card dana-->
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="8dp"
+        app:cardMaxElevation="10dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!-- Text View to display Course Name -->
+            <ImageView
+                android:id="@+id/dana"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:padding="5dp"
+                android:src="@drawable/dana" />
+
+            <TextView
+                android:id="@+id/nodana"
+                android:layout_width="match_parent"
+                android:fontFamily="@font/medium"
+                android:layout_height="53dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="150dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="100dp"
+                android:layout_marginBottom="5dp"
+                android:text="085363748306"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- card bsi -->
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="8dp"
+
+        app:cardElevation="8dp"
+        app:cardMaxElevation="10dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+
+            <!-- Text View to display Course Name -->
+            <ImageView
+                android:id="@+id/bsi"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:padding="5dp"
+                android:src="@drawable/bsi" />
+
+            <TextView
+                android:id="@+id/nobsi"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="150dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="100dp"
+                android:layout_marginBottom="5dp"
+                android:text="101xx333xx"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:fontFamily="@font/medium" />
+
+            <TextView
+                android:id="@+id/namabsi"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="150dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="5dp"
+                android:text="Subardjo Darmo"
+                android:textSize="15sp"
+                android:fontFamily="@font/medium" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- card bni-->
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="8dp"
+        app:cardMaxElevation="10dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!-- Text View to display Course Name -->
+            <ImageView
+                android:id="@+id/bni"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:padding="5dp"
+                android:src="@drawable/bni2"/>
+
+            <TextView
+                android:id="@+id/nobni"
+                android:layout_width="match_parent"
+                android:layout_height="53dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="150dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="100dp"
+                android:layout_marginBottom="5dp"
+                android:text="223383830"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:fontFamily="@font/medium" />
+
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- card bibit-->
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        app:cardBackgroundColor="@color/white"
+        android:layout_marginBottom="1dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="8dp"
+        app:cardMaxElevation="10dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!-- Text View to display Course Name -->
+            <ImageView
+                android:id="@+id/bibit"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:src="@drawable/bibit" />
+
+            <TextView
+                android:id="@+id/nobibit"
+                android:layout_width="match_parent"
+                android:layout_height="53dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="150dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="100dp"
+                android:textStyle="bold"
+                android:layout_marginBottom="5dp"
+                android:text="085363748306"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:fontFamily="@font/medium" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/btn_tglsewa"
+        android:layout_width="350dp"
+        android:textSize="15sp"
+        android:layout_marginTop="-4dp"
+        android:fontFamily="@font/bold"
+        android:layout_height="40dp"
+        android:background="@drawable/button"
+        android:text="Sudah Bayar"
+        android:layout_gravity="center"
+        android:textStyle="bold" />
+
+</LinearLayout>
+
+
+
+
+
+
+

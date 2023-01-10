@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100">
+
+    <TextView
+        android:layout_marginTop="25dp"
+        android:text="Pilih Tanggal Mulai Kos"
+        android:fontFamily="@font/medium"
+        android:textSize="16dp"
+        android:layout_marginRight="85dp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+
+    <ImageView
+        android:id="@+id/icon_info"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:src="@drawable/nomor1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/info1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="1dp"
+        android:fontFamily="@font/regular"
+        android:layout_marginTop="-40dp"
+        android:text="1. Waktu mulai ngekos terdekat : "
+        android:textColor="@color/black"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/info1_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="1dp"
+        android:fontFamily="@font/regular"
+        android:layout_marginTop="1dp"
+        android:text="di hari H setelah pengajuan sewa "
+        android:textColor="@color/black"
+        android:textSize="16sp"/>
+
+    <ImageView
+        android:id="@+id/icon_info2"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:src="@drawable/nomor2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/info2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="1dp"
+        android:fontFamily="@font/regular"
+        android:layout_marginTop="-40dp"
+        android:text="2. Waktu mulai ngekos terjauh : "
+        android:textColor="@color/black"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/info2_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="1dp"
+        android:fontFamily="@font/regular"
+        android:layout_marginTop="1dp"
+        android:text="1 bulan setelah pengajuan sewa"
+        android:textColor="@color/black"
+        android:textSize="16sp"/>
+
+    <EditText
+        android:id="@+id/PilihtJam"
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_toStartOf="@+id/btnTanggal"
+        android:hint="Pilih Jam Sewa" />
+
+    <ImageButton
+        android:id="@+id/btn_jam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="356dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="-40dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="100dp"
+        android:src="@drawable/ic_baseline_access_time_24"/>
+
+
+    <EditText
+        android:id="@+id/Pilihtanggal"
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_toStartOf="@+id/btnTanggal"
+        android:hint="Pilih Tanggal Sewa" />
+
+    <ImageButton
+        android:id="@+id/btn_tgl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="356dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="-40dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="100dp"
+        android:src="@drawable/ic_baseline_date_range_24" />
+
+    <Button
+        android:id="@+id/btn_tglsewa"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:fontFamily="@font/bold"
+        android:layout_marginTop="1dp"
+        android:textSize="13sp"
+        android:background="@drawable/button"
+        android:text="Ajukan Tanggal Sewa"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_gravity="center"
+        app:layout_constraintTop_toBottomOf="@+id/upCtt" />
+
+</LinearLayout>
+
+
+
+
+
+
+
