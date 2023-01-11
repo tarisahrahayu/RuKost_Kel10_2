@@ -236,19 +236,4 @@
         android:layout_gravity="center"
         app:layout_constraintTop_toBottomOf="@+id/upCtt" />
 
-    <Button
-        android:id="@+id/btn_formsewa"
-        android:layout_width="350dp"
-        android:layout_height="35dp"
-        android:fontFamily="@font/bold"
-        android:background="@drawable/button"
-        android:text="Ajukan Sewa"
-        android:layout_marginTop="8dp"
-        android:textSize="13sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        android:layout_gravity="center"
-        app:layout_constraintTop_toBottomOf="@+id/btn_tglsewa" />
-
 </LinearLayout>

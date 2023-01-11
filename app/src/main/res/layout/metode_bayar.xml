@@ -221,49 +221,7 @@
         </RelativeLayout>
     </androidx.cardview.widget.CardView>
 
-    <!-- card bibit-->
 
-    <androidx.cardview.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="120dp"
-        app:cardBackgroundColor="@color/white"
-        android:layout_marginBottom="1dp"
-        app:cardCornerRadius="8dp"
-        app:cardElevation="8dp"
-        app:cardMaxElevation="10dp"
-        app:cardPreventCornerOverlap="true"
-        app:cardUseCompatPadding="true">
-
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <!-- Text View to display Course Name -->
-            <ImageView
-                android:id="@+id/bibit"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:layout_margin="10dp"
-                android:contentDescription="@string/app_name"
-                android:padding="5dp"
-                android:src="@drawable/bibit" />
-
-            <TextView
-                android:id="@+id/nobibit"
-                android:layout_width="match_parent"
-                android:layout_height="53dp"
-                android:layout_alignParentBottom="true"
-                android:layout_marginStart="150dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginEnd="100dp"
-                android:textStyle="bold"
-                android:layout_marginBottom="5dp"
-                android:text="085363748306"
-                android:textColor="@color/black"
-                android:textSize="15sp"
-                android:fontFamily="@font/medium" />
-        </RelativeLayout>
-    </androidx.cardview.widget.CardView>
 
     <Button
         android:id="@+id/btn_tglsewa"
