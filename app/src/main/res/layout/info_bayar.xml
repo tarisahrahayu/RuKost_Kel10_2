@@ -3,11 +3,14 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:weightSum="100">
+    android:weightSum="100"
+    tools:context="com.example.rukost_kel10.HalamanUtamaFragment">
 
     <TextView
+        android:id="@+id/rincianP"
         android:layout_marginTop="16dp"
         android:text="Rincian Pembayaran"
         android:fontFamily="@font/medium"

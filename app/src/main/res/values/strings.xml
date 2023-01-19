@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">RuKost_Kel10</string>
+    <string name="hai">Hai, Kamu lagi cari kos?</string>
+    <string name="pertama">Selamat datang di RuKost. Aplikasi kos aman dan terpercaya yang akan memudahkan mu mencari dan menyewa kos yang ada di Rumbai. </string>
+    <string name="next">Selanjutnya</string>
+    <string name="page2">Transaksi Mudah dan Aman</string>
+    <string name="text2">Transaksi mudah dan aman. Kamu bisa bayar sewa melalui beberapa metode seperti : Dana, BSI, BNI,Dan metode pembayaran lain nya.</string>
+    <string name="page3">Ayo mulai..!</string>
+    <string name="text3">Ayo mulai cari kos yang kamu inginkan. Login dan Register tanpa ribet. Temukan Kos idamanmu sekarang juga.</string>
+    <string name="home">Ayo mulai..!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

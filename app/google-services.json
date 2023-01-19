@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "634869266618",
+    "firebase_url": "https://rukost-kelompok10-default-rtdb.firebaseio.com",
+    "project_id": "rukost-kelompok10",
+    "storage_bucket": "rukost-kelompok10.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:634869266618:android:43be3990033f2af4baaa83",
+        "android_client_info": {
+          "package_name": "com.example.rukost_kel10"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "634869266618-pqheskglvn9u1g8eqo3acvu5tgktloa7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rukost_kel10",
+            "certificate_hash": "fea8763dbf63bd4c6b0e17c73aecc14e605defd9"
+          }
+        },
+        {
+          "client_id": "634869266618-5che1tvaua1ucreq3a1tod17jbra94ov.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1bSwrSe9pwHfY2nmWHcpnZy8_7dC23B0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "634869266618-5che1tvaua1ucreq3a1tod17jbra94ov.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
