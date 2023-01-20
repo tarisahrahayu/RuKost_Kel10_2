@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:weightSum="100">
-   <!-- tools:context="com.example.rukost_kel10.HalamanUtamaFragment"-->
+    <!-- tools:context="com.example.rukost_kel10.HalamanUtamaFragment"-->
 
     <TextView
         android:id="@+id/rincianP"

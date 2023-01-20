@@ -11,19 +11,18 @@
     <Button
         android:layout_width="32dp"
         android:layout_height="32dp"
-
         android:layout_marginTop="28dp"
         android:background="@drawable/arrow_left"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.042"
         app:layout_constraintStart_toStartOf="parent"
+        android:backgroundTint="@color/black"
         app:layout_constraintTop_toTopOf="parent"></Button>
 
     <TextView
         android:id="@+id/detail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/medium"
         android:layout_marginTop="28dp"
         android:text="Detail Kost"
         android:textColor="@color/black"
@@ -58,8 +57,6 @@
         android:id="@+id/txt_hal_satu"
         android:layout_width="337dp"
         android:layout_height="30dp"
-
-        android:fontFamily="@font/medium"
         android:text="Spesifikasi Kamar"
         android:textColor="@color/black"
         android:textSize="13dp"
@@ -85,7 +82,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="3x4 m"
-        android:fontFamily="@font/medium"
         android:textColor="@color/black"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -109,7 +105,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Termasuk Listrik"
-        android:fontFamily="@font/medium"
         android:textColor="@color/black"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -123,8 +118,6 @@
         android:layout_width="337dp"
         android:layout_height="30dp"
         android:text="Fasilitas"
-
-        android:fontFamily="@font/medium"
         android:textColor="@color/black"
         android:textSize="13dp"
         android:textStyle="bold"
@@ -149,8 +142,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="AC"
-
-        android:fontFamily="@font/medium"
         android:textColor="@color/black"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -174,8 +165,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Kasur"
-
-        android:fontFamily="@font/medium"
         android:textColor="@color/black"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -199,8 +188,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Lemari"
-
-        android:fontFamily="@font/medium"
         android:textColor="@color/black"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -224,8 +211,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Kamar Mandi"
-
-        android:fontFamily="@font/medium"
         android:textColor="@color/black"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -250,8 +235,6 @@
         android:layout_height="30dp"
         android:text="Rp. 550.000/bulan"
         android:textColor="@color/black"
-
-        android:fontFamily="@font/medium"
         android:textSize="16dp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -266,9 +249,9 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:width="150dp"
-        android:fontFamily="@font/medium"
         android:text="Ajukan Sewa"
         android:textColor="@color/white"
+        android:backgroundTint="@color/biru"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.869"
         app:layout_constraintStart_toStartOf="parent"
