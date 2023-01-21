@@ -20,7 +20,7 @@ class SplashScreenFragment : Fragment() {
         Handler().postDelayed({
             if(onBoardingFinished()){
                 findNavController().navigate(
-                    R.id.action_splashScreenFragment_to_halamanUtamaFragment
+                    R.id.action_splashScreenFragment_to_homeActivity
                 )
             }else{
                 findNavController().navigate(

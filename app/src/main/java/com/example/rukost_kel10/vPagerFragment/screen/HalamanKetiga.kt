@@ -25,7 +25,7 @@ class HalamanKetiga : Fragment() {
 
 
         binding.txtHalNext.setOnClickListener{
-            findNavController().navigate(R.id.action_viewPagerFragment_to_halamanUtamaFragment)
+            findNavController().navigate(R.id.action_viewPagerFragment_to_homeActivity)
 
         }
         return view

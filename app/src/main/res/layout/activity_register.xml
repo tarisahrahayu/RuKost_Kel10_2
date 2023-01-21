@@ -31,13 +31,11 @@
 
 
             <EditText
-                android:id="@+id/et_username"
+                android:id="@+id/et_namap"
                 android:layout_width="330dp"
                 android:layout_height="74dp"
                 android:layout_gravity="center"
-                android:drawableStart=""
                 android:fontFamily="@font/medium"
-
                 android:hint="Nama Pengguna"
                 android:inputType="text" />
 
@@ -46,7 +44,7 @@
                 android:id="@+id/et_pass"
                 android:layout_width="330dp"
                 android:layout_height="62dp"
-                android:drawableStart=""
+
                 android:layout_gravity="center"
                 android:hint="Kata Sandi"
                 android:fontFamily="@font/medium"
@@ -55,7 +53,7 @@
                 android:id="@+id/et_ttl"
                 android:layout_width="330dp"
                 android:layout_height="60dp"
-                android:drawableStart=""
+
                 android:layout_gravity="center"
                 android:fontFamily="@font/medium"
                 android:hint="Tempat Tanggal lahir"
@@ -64,35 +62,35 @@
                 android:id="@+id/et_kota"
                 android:layout_width="330dp"
                 android:layout_height="62dp"
-                android:drawableStart=""
+
                 android:layout_gravity="center"
                 android:hint="Kota Asal"
                 android:fontFamily="@font/medium"
                 android:inputType="text" />
             <EditText
-                android:id="@+id/et_NoHp"
+                android:id="@+id/et_nohp"
                 android:layout_width="330dp"
                 android:layout_height="62dp"
-                android:drawableStart=""
+
                 android:layout_gravity="center"
                 android:hint="No Handphone"
                 android:fontFamily="@font/medium"
                 android:inputType="text" />
             <EditText
-                android:id="@+id/et_JK"
+                android:id="@+id/et_jk"
                 android:layout_width="330dp"
                 android:layout_height="62dp"
-                android:drawableStart=""
+
                 android:layout_gravity="center"
                 android:hint="Jenis Kelamin"
 
                 android:fontFamily="@font/medium"
                 android:inputType="text" />
             <EditText
-                android:id="@+id/et_Status"
+                android:id="@+id/et_status"
                 android:layout_width="330dp"
                 android:layout_height="62dp"
-                android:drawableStart=""
+
                 android:layout_gravity="center"
                 android:hint="Status"
                 android:fontFamily="@font/medium"
@@ -100,7 +98,7 @@
 
 
             <Button
-                android:id="@+id/btn_1"
+                android:id="@+id/btn_daftar"
                 android:layout_width="wrap_content"
                 android:layout_height="66dp"
                 android:layout_centerHorizontal="true"

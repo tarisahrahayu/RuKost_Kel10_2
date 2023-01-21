@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.view.View
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
@@ -65,7 +66,7 @@ class LoginActivity : AppCompatActivity() {
                     sessionManager.setLoggin(true)
                     sessionManager.setNama_pengguna(nama_pengguna)
 //                    findNavController().navigate(R.id.action_loginAcitvity_to_berandaFragment2)
-                    val i = Intent(applicationContext, DetailKostActivity::class.java)
+                    val i = Intent(applicationContext, FormSewa::class.java)
                     i.putExtra("Value1", "Selamat Datang")
                     startActivity(i)
                 } else {
@@ -76,4 +77,13 @@ class LoginActivity : AppCompatActivity() {
 
         })
     }
+
+    fun daftar(view: View?){
+        val i = Intent(applicationContext, RegisterActivity::class.java)
+        startActivity(i)
+    }
+
+
+
+
 }

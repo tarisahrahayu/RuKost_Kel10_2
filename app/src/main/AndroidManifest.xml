@@ -13,6 +13,68 @@
         android:theme="@style/Theme.RuKost_Kel10"
         tools:targetApi="31">
         <activity
+            android:name=".FormSewaaActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Main2Activity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".TampilProfileActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".DetailKostRaharjaActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".DetailKostAisyahActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".DetailKostVisheActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".DetailKostMawarActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".MetodeBayarActivity"
             android:exported="false">
             <meta-data
@@ -41,35 +103,15 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".HomeActivity"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
             android:name=".RegisterActivity"
             android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
-            android:name=".DetailKostActivity"
-            android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
             android:name=".LoginActivity"
-            android:exported="false">
+            android:exported="true">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -80,7 +122,6 @@
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
-            />
         </activity>
         <activity
             android:name=".FormSewa"
@@ -89,39 +130,24 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
-        <!--
-Login
-       <activity
-           android:name=".RegisterActivity"
-           android:exported="false">
-           <meta-data
-               android:name="android.app.lib_name"
-               android:value="" />
-       </activity>
-       <activity
-           android:name=".LoginActivity"
-           android:exported="false">
-           <meta-data
-               android:name="android.app.lib_name"
-               android:value="" />
-       </activity>Login
-        -->
-        <!--
-Notifikasi
-                      <activity
-                          android:name=".MainActivity2"
-                          android:exported="true">
-                          <intent-filter>
-                              <action android:name="android.intent.action.MAIN" />
-
-                              <category android:name="android.intent.category.LAUNCHER" />
-                          </intent-filter>
-                      </activity>
-       Notifikasi
-        -->
         <activity
-            android:name=".MainActivity3"
-            android:exported="true" />
+            android:name=".MainActivity2"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

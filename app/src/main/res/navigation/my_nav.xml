@@ -16,8 +16,8 @@
             app:popUpTo="@id/splashScreenFragment"
             app:popUpToInclusive="true" />
         <action
-            android:id="@+id/action_splashScreenFragment_to_halamanUtamaFragment"
-            app:destination="@id/halamanUtamaFragment"
+            android:id="@+id/action_splashScreenFragment_to_homeActivity"
+            app:destination="@id/homeActivity"
             app:popUpTo="@id/splashScreenFragment" />
     </fragment>
     <fragment
@@ -26,14 +26,13 @@
         android:label="fragment_view_pager"
         tools:layout="@layout/fragment_view_pager" >
         <action
-            android:id="@+id/action_viewPagerFragment_to_halamanUtamaFragment"
-            app:destination="@id/halamanUtamaFragment"
-            app:popUpTo="@id/splashScreenFragment"
-            app:popUpToInclusive="true" />
+            android:id="@+id/action_viewPagerFragment_to_homeActivity"
+            app:destination="@id/homeActivity"
+            app:popUpTo="@id/splashScreenFragment" />
     </fragment>
-    <fragment
-        android:id="@+id/halamanUtamaFragment"
-        android:name="com.example.rukost_kel10.vPagerFragment.screen.HalamanPertama"
-        android:label="fragment_halaman_pertama"
-        tools:layout="@layout/fragment_halaman_pertama" />
+    <activity
+        android:id="@+id/homeActivity"
+        android:name="com.example.rukost_kel10.HomeActivity"
+        android:label="activity_home"
+        tools:layout="@layout/activity_home" />
 </navigation>

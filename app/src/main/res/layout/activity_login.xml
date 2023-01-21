@@ -30,14 +30,11 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
-
-
             <EditText
-                android:id="@+id/et_username"
+                android:id="@+id/et_namap"
                 android:layout_width="330dp"
                 android:layout_height="60dp"
-                android:drawableStart=""
-
+                android:layout_marginTop="20dp"
                 android:fontFamily="@font/medium"
                 android:layout_gravity="center"
                 android:hint="Nama Pengguna"
@@ -49,32 +46,33 @@
                 android:layout_width="330dp"
                 android:layout_height="62dp"
                 android:layout_gravity="center"
-                android:drawableStart=""
+
                 android:hint="Kata Sandi"
 
                 android:fontFamily="@font/medium"
                 android:inputType="text" />
 
             <Button
-                android:id="@+id/btn_1"
+                android:id="@+id/btn_masuk"
                 android:layout_width="wrap_content"
                 android:layout_height="66dp"
                 android:layout_centerHorizontal="true"
                 android:layout_marginLeft="50dp"
                 android:layout_marginTop="70dp"
                 android:width="300dp"
-
                 android:fontFamily="@font/medium"
                 android:backgroundTint="@color/biru"
-                android:text="Daftar"
+                android:text="Masuk"
                 android:textColor="@color/white" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="160sp"
+                android:layout_marginLeft="150sp"
                 android:layout_marginTop="60sp"
                 android:text="Daftar Akun"
+                android:onClick="daftar"
+                android:textAlignment="center"
                 android:fontFamily="@font/medium"
                 android:textColor="@color/biru"
                 android:textSize="18sp" />

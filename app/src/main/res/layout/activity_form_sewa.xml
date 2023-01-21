@@ -232,6 +232,7 @@
         android:backgroundTint="@color/biru"
         android:fontFamily="@font/bold"
         android:text="Ajukan Tanggal Sewa"
+        android:onClick="kalender"
         android:textSize="13sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

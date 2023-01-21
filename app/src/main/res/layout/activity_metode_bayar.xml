@@ -5,7 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:weightSum="100">
+    android:weightSum="100"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MetodeBayarActivity">
 
     <TextView
         android:layout_marginTop="16dp"
@@ -16,6 +18,19 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center" />
+
+    <Button
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="-30dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/arrow_left"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.042"
+        app:layout_constraintStart_toStartOf="parent"
+        android:backgroundTint="@color/black"
+        android:onClick="backHome"
+        app:layout_constraintTop_toTopOf="parent"></Button>
 
     <!-- card total pembayaran-->
 
@@ -275,6 +290,7 @@
         android:fontFamily="@font/bold"
         android:layout_height="40dp"
         android:text="Sudah Bayar"
+        android:onClick="berhasil"
         android:backgroundTint="@color/biru"
         android:layout_gravity="center"
         android:textStyle="bold" />

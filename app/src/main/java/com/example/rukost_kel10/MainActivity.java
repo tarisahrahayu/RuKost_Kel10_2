@@ -25,17 +25,23 @@ public class MainActivity extends AppCompatActivity {
     private int tahun,bulan,tanggal;
     private int tahun2,bulan2,tanggal2;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
+
+
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.kalender);
+        setContentView(R.layout.activity_kalender);
 
         Pilihjam = findViewById(R.id.Pilihjam);
         Pilihtanggal = findViewById(R.id.Pilihtanggal);
         btn_jam = findViewById(R.id.btn_jam);
         btn_tgl = findViewById(R.id.btn_tgl);
 
+
         btn_jam.setOnClickListener(new View.OnClickListener() {
+
             @Override
             public void onClick(View v) {
                 Calendar calendar = Calendar.getInstance();
@@ -108,6 +114,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+
         Pilihtanggal.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -129,6 +136,12 @@ public class MainActivity extends AppCompatActivity {
                 },tahun2,bulan2,tanggal2);
                 dialog.show();
             }
-        });
+
+        }
+        );
+
     }
+
+
+
 }
